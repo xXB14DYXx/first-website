@@ -1,0 +1,46 @@
+body {
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 400%;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+}
+
+
+h3 {
+  color: black;
+  font-size: 270%;
+}
+
+p {
+  font-size: 200%;
+}
+
+br {
+  line-height: 2px;
+  color: red;
+}
+.btn1{
+text-align: right;
+}
